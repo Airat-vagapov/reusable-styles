@@ -7,6 +7,10 @@
 }
 
 @media (max-width: 1199px) {
+    .hide--tab {
+        display: none;
+    }
+
     .show--tab {
         display: flex;
     }
@@ -23,5 +27,9 @@
 
     .show--mbGrid {
         display: grid;
+    }
+
+    .hide--mb {
+        display: none;
     }
 }
