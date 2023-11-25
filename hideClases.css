@@ -1,0 +1,27 @@
+.show--tab {
+    display: none;
+}
+
+.show--mb {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .show--tab {
+        display: flex;
+    }
+
+    .show--tabGrid {
+        display: grid;
+    }
+}
+
+@media (max-width: 767px) {
+    .show--mb {
+        display: flex;
+    }
+
+    .show--mbGrid {
+        display: grid;
+    }
+}
