@@ -1,27 +1,27 @@
-.show--tab {
+.show--tablet {
     display: none;
 }
 
-.show--mb {
+.show--mobile {
     display: none;
 }
 
 @media (max-width: 1199px) {
-    .hide--tab {
+    .hide--tablet {
         display: none;
     }
 
-    .show--tab {
+    .show--tablet {
         display: flex;
     }
 
-    .show--tabGrid {
+    .show--tabletGrid {
         display: grid;
     }
 }
 
 @media (max-width: 767px) {
-    .show--mb {
+    .show--mobile {
         display: flex;
     }
 
@@ -29,7 +29,7 @@
         display: grid;
     }
 
-    .hide--mb {
+    .hide--mobile {
         display: none;
     }
 }
